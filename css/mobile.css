@@ -1,0 +1,1092 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "iconfont";
+	src: url('../fonts/iconfont.eot?t=1468678825');
+	/* IE9*/
+	src: url('../fonts/iconfont.eot?t=1468678825#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/iconfont.woff?t=1468678825') format('woff'), /* chrome, firefox */
+	url('../fonts/iconfont.ttf?t=1468678825') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	url('../fonts/iconfont.svg?t=1468678825#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+/* wifi上网 */
+.wiPage-HtmlBg {
+    background: url(../img/wifi_body_bg.jpg) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.wifiDiv {
+    height: 200px;
+    background-color: rgba(0,0,0,0.5);
+    display: table-cell;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.wiPage-Top-alpha {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.wiPage-Html {
+    margin: 0 auto;
+    color: #333;
+}
+
+.wiPage-btn-upload {
+    font-size: 14px;
+    color: #fff;
+    background-color: #f0991e;
+    display: block;
+    margin-bottom: 18px;
+    padding: 11px 0;
+}
+
+.wiPage-Top {
+    position: relative;
+    background: url(../img/wifi_top_bg.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.wiPage-Top-title {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.wiPage-Top-txtimg {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    width: 100%;
+    z-index: 40;
+}
+
+.wiPage-Top-logo {
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+}
+
+.wiPage-Top-imgone {
+    width: 70%;
+    float: left;
+    padding-top: 4px;
+}
+
+.wiPage-Top-logo img {
+    max-width: 118px;
+    width: 100%;
+}
+
+.wiPage-Top-imgone img {
+    max-width: 582px;
+    width: 100%;
+}
+
+.wiPage-Top-title span {
+    display: block;
+    letter-spacing: 2px;
+}
+
+.wifi-banner-item {
+    position: relative;
+}
+
+    .wifi-banner-item img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+
+.wifi-banner-name {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+}
+
+.wiPage_banner_frame {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: #fff 0px 0px 8px;
+    position: relative;
+}
+
+.wifi-before-body {
+    position: relative;
+}
+
+.wifi-before-title {
+    padding: 0px 60px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+}
+
+.wifi-before-loginbutton-partone {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.wifi-before-loginbutton-ul li {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+}
+
+    .wifi-before-loginbutton-ul li a {
+        display: block;
+        padding: 0 6px 0 6px;
+    }
+
+    .wifi-before-loginbutton-ul li img {
+        width: 100%;
+        max-width: 159px;
+    }
+
+.wifi-before-title img {
+    width: 100%;
+    max-width: 353px;
+}
+
+.wifi-before-agree-txt a {
+    color: #2eae22;
+}
+
+.wifi-before-agree-txt {
+    padding-left: 5px;
+}
+
+.wifi-before-agree {
+    padding: 0 20px 20px 20px;
+}
+
+.wifi-before-download-left {
+    float: left;
+}
+
+.wifi-before-download-middle {
+    float: left;
+    color: #448aca;
+}
+
+.wifi-before-download-right {
+    float: right;
+}
+
+.wifi-before-download-left img {
+    width: 100%;
+    max-width: 40px;
+}
+
+.wifi-before-download-right img {
+    width: 100%;
+    max-width: 120px;
+}
+
+.wifi-before-footer {
+    background-color: #fff;
+}
+
+.wifi-before-footer-img img {
+    width: 100%;
+    max-width: 130px;
+}
+
+.wifi-before-footer-txt span {
+    display: block;
+    padding: 0 5px;
+}
+
+.wifi-accountLogin-content{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: #333 0 0 2px;
+}
+
+.wifi-accountLogin-partone{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    padding:10px 10px;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;        
+}
+
+.wifi-accountLogin-parttwo{
+    display: flex;
+    padding:10px 10px;   
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;  
+}
+
+.wifi-accountLogin input{
+    width: 100%;
+    border:0;
+    font-size:14px;
+    color: #333;
+}
+
+.wifi-accountLogin-userinput{
+    flex:1 0 auto;
+    margin:0 10px;
+}
+
+.wifi-accountLogin-passwordinput{
+    flex:1 0 auto;
+    margin:0 10px;
+}
+
+.wifi-accountLogin-know{
+    font-size: 14px;
+    padding:20px 20px 0 20px;
+}
+
+.konwTxt{
+    color: #fff;
+    line-height:26px;
+}
+
+.konwTxt a{
+    color: #2eae22;
+}
+
+.wifi-accountLogin-denglu a{
+   display: block;
+   border-radius: 10px;
+   text-align: center;
+   background-color: #f29b76;
+   font-size: 16px;
+   padding:10px 0;
+   color: #fff;
+   box-shadow:#333 0 0 2px;
+}
+
+.wifi-accountLoginMethod{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.wifi-accountLoginMethod hr{
+    width: 100%;
+}
+
+.wifi-accountLoginMethod-line{
+  flex: 0.4 0 auto;
+  border-bottom: 1px solid #fff;
+  padding-top:10px;
+  height:1px;
+}
+
+.wifi-accountLoginMethod-txt{
+  flex: 0 0 120px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.otherLogin{
+    display: flex;
+    display:-webkit-flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.otherLoginItem{
+    flex:0 0 16%;
+    margin:0 10px;
+    text-align: center;
+    padding-bottom:30px;
+    
+}
+
+.otherLoginItem img{
+    width: 100%;
+    max-width:60px;
+}
+
+.wiPage-local{
+    background-color: #fff;
+    padding:6px 10px;
+    display: flex;
+    display:-webkit-flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size:14px;
+    border-radius:5px;
+}
+
+.newlist-li{
+    background-color: #fff;
+    border-radius:5px;
+    text-align:center;
+    padding:10px 0;
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.newlist-li a{
+    color:#333;
+}
+
+.wiPage-jiantou{
+    text-align: center;
+    padding:10px 0;    
+    margin-bottom:10px;
+    background-color: #fff;
+    border-radius:5px;
+}
+
+.wiPage-news-content{
+    background-color: #fff;
+    border-radius:5px;
+    margin-bottom:20px;    
+}
+
+.wiPage-news-title{
+    font-size: 16px;
+    text-align: center;
+    padding:10px 0;
+    border-bottom: 3px solid #99ccff;
+}
+
+.wiPage-news-partlist{
+    padding: 8px 8px 0 8px;
+}
+
+.wipage-newh3{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height:28px;
+    font-size:14px;
+    letter-spacing:2px;
+}
+
+.wipage-newh3 a{
+    color:#333;
+}
+
+.wipage-newdetail{
+    display: flex;
+    display:-webkit-flex;
+    flex-direction:row;
+    justify-content:space-between;  
+    font-size:12px;
+}
+
+.wiPage-news-partlist-ul li{
+    margin-bottom:20px;
+}
+
+.wiPage-news-bottom{
+    text-align: center;
+    padding:10px 0;
+}
+
+
+/* 大屏幕 */
+@media (min-width: 1200px) {
+    .wiPage-Top-title-ch {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .wiPage-Top {
+        height: 161px;
+    }
+
+    .wiPage-Top-title {
+        top: 75px;
+    }
+
+    .wifi-margin{
+        padding: 20px 20px 0px 20px;        
+    }
+
+    .wiPage_banner_frame {
+        height: 420px;
+        overflow: hidden;
+        margin: 20px 20px 0px 20px;    
+    }
+
+    .wiPage-banner-leftButton {
+        position: absolute;
+        top: 180px;
+        left: 10px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-leftButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wiPage-banner-rightButton {
+        position: absolute;
+        right: 10px;
+        top: 180px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-rightButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wifi-banner-name {
+        height: 42px;
+        line-height: 42px;
+        font-size: 18px;
+    }
+
+    .wifi-before-content {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .wifi-before-loginbutton-ul {
+        padding-top: 70px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .wifi-before-download {
+        height: 80px;
+        background-color: #fff;
+        border-bottom: 1px solid #b3e0aa;
+    }
+
+    .wifi-before-download-left {
+        width: 5%;
+        margin-left: 1%;
+        margin-top: 20px;
+    }
+
+    .wifi-before-download-middle {
+        line-height: 80px;
+        width: 68%;
+        margin-left: 1%;
+    }
+
+    .wifi-before-download-right {
+        width: 20%;
+        margin-right: 1%;
+        margin-top: 12px;
+        text-align: right;
+    }
+
+    .wifi-before-footer {
+        padding: 10px 0px;
+    }
+
+    .wifi-before-footer-img {
+        width: 10%;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .wifi-before-footer-txt {
+        width: 85%;
+        float: left;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+}
+
+@media (min-width: 979px) and (max-width: 1200px) {
+    .wiPage-Top-title-ch {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .wiPage-Top {
+        height: 161px;
+    }
+
+    .wiPage-Top-title {
+        top: 75px;
+    }
+
+    .wifi-margin{
+        padding: 20px 20px 0px 20px;        
+    }
+
+    .wiPage_banner_frame {
+        height: 420px;
+        overflow: hidden;
+        margin: 20px 20px 0px 20px;    
+    }
+
+    .wiPage-banner-leftButton {
+        position: absolute;
+        top: 180px;
+        left: 10px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-leftButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wiPage-banner-rightButton {
+        position: absolute;
+        right: 10px;
+        top: 180px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-rightButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wifi-banner-name {
+        height: 42px;
+        line-height: 42px;
+        font-size: 18px;
+    }
+
+    .wifi-before-content {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .wifi-before-loginbutton-ul {
+        padding-top: 70px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .wifi-before-download {
+        height: 80px;
+        background-color: #fff;
+        border-bottom: 1px solid #b3e0aa;
+    }
+
+    .wifi-before-download-left {
+        width: 5%;
+        margin-left: 1%;
+        margin-top: 20px;
+    }
+
+    .wifi-before-download-middle {
+        line-height: 80px;
+        width: 68%;
+        margin-left: 1%;
+    }
+
+    .wifi-before-download-right {
+        width: 20%;
+        margin-right: 1%;
+        margin-top: 12px;
+        text-align: right;
+    }
+
+    .wifi-before-footer {
+        padding: 10px 0px;
+    }
+
+    .wifi-before-footer-img {
+        width: 15%;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .wifi-before-footer-txt {
+        width: 85%;
+        float: right;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+}
+
+
+/* 平板电脑和小屏电脑之间的分辨率 */
+@media (min-width: 768px) and (max-width: 979px) {
+    .wiPage-Top-title-ch {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .wiPage-Top {
+        height: 161px;
+    }
+
+    .wiPage-Top-title {
+        top: 75px;
+    }
+
+    .wifi-margin{
+        padding: 20px 20px 0px 20px;        
+    }
+
+    .wiPage_banner_frame {
+        height: 420px;
+        overflow: hidden;
+        margin: 20px 20px 0px 20px;    
+    }
+
+    .wiPage-banner-leftButton {
+        position: absolute;
+        top: 180px;
+        left: 10px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-leftButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wiPage-banner-rightButton {
+        position: absolute;
+        right: 10px;
+        top: 180px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-rightButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wifi-banner-name {
+        height: 42px;
+        line-height: 42px;
+        font-size: 18px;
+    }
+
+    .wifi-before-content {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .wifi-before-loginbutton-ul {
+        padding-top: 70px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .wifi-before-download {
+        height: 80px;
+        background-color: #fff;
+        border-bottom: 1px solid #b3e0aa;
+    }
+
+    .wifi-before-download-left {
+        width: 9%;
+        margin-left: 1%;
+        margin-top: 20px;
+    }
+
+    .wifi-before-download-middle {
+        line-height: 80px;
+        width: 68%;
+        margin-left: 1%;
+    }
+
+    .wifi-before-download-right {
+        width: 20%;
+        margin-right: 1%;
+        margin-top: 12px;
+    }
+
+    .wifi-before-footer {
+        padding: 10px 0px;
+    }
+
+    .wifi-before-footer-img {
+        width: 15%;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .wifi-before-footer-txt {
+        width: 85%;
+        float: right;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+}
+
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+@media (max-width: 767px) {
+    .wiPage-Top-title-ch {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .wiPage-Top {
+        height: 161px;
+    }
+
+    .wiPage-Top-title {
+        top: 75px;
+    }
+
+    .wifi-margin{
+        padding: 20px 20px 0px 20px;        
+    }
+
+    .wiPage_banner_frame {
+        height: 300px;
+        overflow: hidden;
+        margin: 20px 20px 0px 20px;    
+    }
+
+    .wiPage-banner-leftButton {
+        position: absolute;
+        top: 120px;
+        left: 10px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-leftButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wiPage-banner-rightButton {
+        position: absolute;
+        right: 10px;
+        top: 120px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-rightButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wifi-banner-name {
+        height: 42px;
+        line-height: 42px;
+        font-size: 18px;
+    }
+
+    .wifi-before-content {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .wifi-before-loginbutton-ul {
+        padding-top: 70px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .wifi-before-download {
+        height: 80px;
+        background-color: #fff;
+        border-bottom: 1px solid #b3e0aa;
+    }
+
+    .wifi-before-download-left {
+        width: 9%;
+        margin-left: 1%;
+        margin-top: 20px;
+    }
+
+    .wifi-before-download-middle {
+        line-height: 80px;
+        width: 68%;
+        margin-left: 1%;
+    }
+
+    .wifi-before-download-right {
+        width: 20%;
+        margin-right: 1%;
+        margin-top: 12px;
+    }
+
+    .wifi-before-footer {
+        padding: 10px 0px;
+    }
+
+    .wifi-before-footer-img {
+        width: 15%;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .wifi-before-footer-txt {
+        width: 85%;
+        float: right;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+}
+
+
+@media (min-width: 375px) and (max-width: 480px) {
+    .wiPage-Top-title-ch {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .wiPage-Top {
+        height: 130px;
+    }
+
+    .wiPage-Top-txtimg {
+        top: 20px;
+    }
+
+    .wiPage-Top-title {
+        top: 60px;
+    }
+
+    .wifi-margin{
+        padding: 20px 20px 0px 20px;        
+    }
+
+    .wiPage_banner_frame {
+        height: 220px;
+        overflow: hidden;
+        margin: 20px 20px 0px 20px; 
+    }
+
+    .wiPage-swiper-container{
+        height: 220px;       
+    }
+
+    .wiPage-banner-leftButton {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-leftButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wiPage-banner-rightButton {
+        position: absolute;
+        right: 10px;
+        top: 100px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-rightButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wifi-banner-name {
+        height: 42px;
+        line-height: 42px;
+        font-size: 18px;
+    }
+
+    .wifi-before-content {
+        padding: 28px 20px 20px 20px;
+    }
+
+    .wifi-before-loginbutton-ul {
+        padding-top: 50px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .wifi-before-agree-txt {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .wifi-before-download {
+        height: 50px;
+        background-color: #fff;
+        border-bottom: 1px solid #b3e0aa;
+    }
+
+    .wifi-before-download-left {
+        width: 9%;
+        margin-left: 1%;
+        margin-top: 6px;
+    }
+
+    .wifi-before-download-middle {
+        line-height: 50px;
+        width: 68%;
+        margin-left: 1%;
+    }
+
+    .wifi-before-download-right {
+        width: 20%;
+        margin-right: 1%;
+        margin-top: 6px;
+    }
+
+    .wifi-before-footer {
+        padding: 10px 0px;
+    }
+
+    .wifi-before-footer-img {
+        width: 15%;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .wifi-before-footer-txt {
+        width: 85%;
+        float: right;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+}
+
+@media (max-width: 374px) {
+    .wiPage-Top-title-ch {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .wiPage-Top {
+        height: 130px;
+    }
+
+    .wiPage-Top-txtimg {
+        top: 20px;
+    }
+
+    .wiPage-Top-title {
+        top: 60px;
+    }
+
+    
+    .wifi-margin{
+        padding: 20px 20px 0px 20px;        
+    }
+
+    .wiPage_banner_frame {
+        height: 200px;
+        overflow: hidden;
+        margin: 20px 20px 0px 20px;    
+    }
+
+    .wiPage-swiper-container{
+        height: 200px;       
+    }
+
+    .wiPage-banner-leftButton {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-leftButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wiPage-banner-rightButton {
+        position: absolute;
+        right: 10px;
+        top: 100px;
+        z-index: 50;
+    }
+
+        .wiPage-banner-rightButton i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+    .wifi-banner-name {
+        height: 42px;
+        line-height: 42px;
+        font-size: 18px;
+    }
+
+    .wifi-before-content {
+        padding: 28px 20px 20px 20px;
+    }
+
+    .wifi-before-loginbutton-ul {
+        padding-top: 50px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .wifi-before-agree-txt {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .wifi-before-download {
+        height: 44px;
+        background-color: #fff;
+    }
+
+    .wifi-before-download-left {
+        width: 9%;
+        margin-left: 1%;
+        margin-top: 6px;
+    }
+
+    .wifi-before-download-middle {
+        line-height: 44px;
+        width: 75%;
+        margin-left: 1%;
+    }
+
+    .wifi-before-download-right {
+        width: 13%;
+        margin-top: 8px;
+        margin-right: 1%;
+    }
+
+    .wifi-before-footer {
+        padding: 10px 0px;
+    }
+
+    .wifi-before-footer-img {
+        width: 15%;
+        float: left;
+        padding-top: 15px;
+    }
+
+    .wifi-before-footer-txt {
+        width: 85%;
+        float: right;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+}

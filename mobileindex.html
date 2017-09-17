@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/iCheck/1.0.2/skins/flat/green.css" rel="stylesheet">
+    <title>Mobile</title>
+</head>
+
+<body>
+    <div class="wiPage-HtmlBg">
+        <div class="wiPage-Html">
+
+            <div class="wiPage-Top">
+                <div class="wiPage-Top-title">
+                    <span class="wiPage-Top-title-ch">苏州市体育中心</span>
+                    <span class="wiPage-Top-title-en">www.suzhousprotsceter.com</span>
+                </div>
+                <div class="wiPage-Top-txtimg clearfix">
+                    <div class="wiPage-Top-logo"><img src="./img/wifi_logo.png" /></div>
+                    <div class="wiPage-Top-imgone"><img src="./img/wifi_top_txt.png" /></div>
+                </div>
+                <div class="wiPage-Top-alpha"></div>
+            </div>
+
+            <div class="wiPage-Banner">
+                <div class="wiPage_banner_frame">
+                    <div class="wiPage-banner-leftButton"><i class="zmdi zmdi-chevron-left"></i></div>
+                    <div class="wiPage-banner-rightButton"><i class="zmdi zmdi-chevron-right"></i></div>
+                    <div class="wiPage-swiper-container">
+                        <div class="swiper-wrapper wifi-banner-content">
+                            <div class="swiper-slide wifi-banner-item"><img src="./img/slideone.jpg"></div>
+                            <div class="swiper-slide wifi-banner-item"><img src="./img/slidetwo.jpg"></div>
+                            <div class="swiper-slide wifi-banner-item"><img src="./img/slidethree.jpg"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="wifi-accountLogin wifi-margin">
+                <div class="wifi-accountLogin-content">
+                    <div class="wifi-accountLogin-partone">
+                        <div class="wifi-accountLogin-usericon"><img src="./img/loginuser.png" width="30px"></div>
+                        <div class="wifi-accountLogin-userinput"><input type="text" id="accountLoginUser" placeholder="请输入用户名"></div>
+                    </div>
+                    <div class="wifi-accountLogin-parttwo">
+                        <div class="wifi-accountLogin-passwordicon"><img src="./img/loginpassword.png" width="30px"></div>
+                        <div class="wifi-accountLogin-passwordinput"><input type="password" id="accountLoginPassword" placeholder="请输入密码"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wifi-accountLogin-know">
+                <input type="checkbox" id="knowButton"> <span class="konwTxt">我同意遵守<a href="#">《SZSports无线网络使用说明协议》</a></span>
+            </div>
+
+            <div class="wifi-accountLogin-denglu wifi-margin" ><a href="#">登 录</a></div>
+
+            <div class="wifi-accountLoginMethod wifi-margin" >
+                 <div class="wifi-accountLoginMethod-line" ></div>
+                 <div class="wifi-accountLoginMethod-txt" >其他登录方式</div>
+                 <div class="wifi-accountLoginMethod-line" ></div>       
+            </div>
+            
+            <div class="otherLogin wifi-margin" >
+                 <div class="otherLoginItem" ><a href="#" ><img src="./img/messageicon.png"></a></div>
+                 <div class="otherLoginItem" ><a href="#" ><img src="./img/weixingicon.png"></a></div>
+            </div>
+
+            <!-- <div class="wifi-before-download clearfix">
+                <div class="wifi-before-download-left"><img src="./img/wifi-download-logo.png" /></div>
+                <div class="wifi-before-download-middle">下载【全民乐动】APP查看更多精彩！</div>
+                <div class="wifi-before-download-right"><img src="./img/wifi-download-right.png" /></div>
+            </div>
+
+            <div class="wifi-before-footer clearfix">
+                <div class="wifi-before-footer-img"><img src="./img/wifi-bottom-wuhuan.png" /></div>
+                <div class="wifi-before-footer-txt"><span>根据公安部的网络安全条例，使用公共WIFI上网需要实名验证，SZSports为苏州体育公共免费WIFI,请放心使用。</span></div>
+            </div> -->
+
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="https://cdn.bootcss.com/iCheck/1.0.2/icheck.min.js"></script>
+    <script>
+        $(function () {
+            var mySwiper = new Swiper('.wiPage-swiper-container', {
+                loop: true,
+            });
+
+            $('#knowButton').iCheck({
+                checkboxClass: 'icheckbox_flat-green',
+                radioClass: 'icheckbox_flat-green'
+            });
+
+        })
+    </script>
+</body>
+
+</html>

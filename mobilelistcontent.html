@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/iCheck/1.0.2/skins/flat/green.css" rel="stylesheet">
+    <title>Mobile</title>
+</head>
+
+<body>
+    <div class="wiPage-HtmlBg">
+        <div class="wiPage-Html">
+
+            <div class="wiPage-Top">
+                <div class="wiPage-Top-title">
+                    <span class="wiPage-Top-title-ch">苏州市体育中心</span>
+                    <span class="wiPage-Top-title-en">www.suzhousprotsceter.com</span>
+                </div>
+                <div class="wiPage-Top-txtimg clearfix">
+                    <div class="wiPage-Top-logo"><img src="./img/wifi_logo.png" /></div>
+                    <div class="wiPage-Top-imgone"><img src="./img/wifi_top_txt.png" /></div>
+                </div>
+                <div class="wiPage-Top-alpha"></div>
+            </div>
+
+            <div class="wiPage-local-frame wifi-margin">
+                <div class="wiPage-local">
+                    <div class="wiPage-local-left"><a href="#">首页</a> / 体育新闻</div>
+                    <div class="wiPage-local-right"><a href="javascript:windowClose()">关闭</a></div>
+                </div>
+            </div>
+
+            <div class="wiPage-news-content-frame wifi-margin">
+                <div class="wiPage-news-content">
+                    <div class="wiPage-news-title">体育新闻</div>
+                    <div class="wiPage-news-partlist">
+                        <ul class="wiPage-news-partlist-ul">
+                            <li>
+                                <h3 class="wipage-newh3"><a href="#">苏州市跆拳道协会今日在苏州苏州市跆拳道协会今日在苏州...</a></h3>
+                                <div class="wipage-newdetail">
+                                    <div class="wipage-newtime">2017/07/21</div>
+                                    <div class="wipage-newname">苏州跆拳道协会</div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="wipage-newh3"><a href="#">苏州市跆拳道协会今日在苏州苏州市跆拳道协会今日在苏州...</a></h3>
+                                <div class="wipage-newdetail">
+                                    <div class="wipage-newtime">2017/07/21</div>
+                                    <div class="wipage-newname">苏州跆拳道协会</div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="wipage-newh3"><a href="#">苏州市跆拳道协会今日在苏州苏州市跆拳道协会今日在苏州...</a></h3>
+                                <div class="wipage-newdetail">
+                                    <div class="wipage-newtime">2017/07/21</div>
+                                    <div class="wipage-newname">苏州跆拳道协会</div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="wipage-newh3"><a href="#">苏州市跆拳道协会今日在苏州苏州市跆拳道协会今日在苏州...</a></h3>
+                                <div class="wipage-newdetail">
+                                    <div class="wipage-newtime">2017/07/21</div>
+                                    <div class="wipage-newname">苏州跆拳道协会</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="wiPage-news-bottom" ><img src="./img/jiantou.png"></div>
+                </div>
+            </div>
+
+            <div class="wifi-before-download clearfix">
+                <div class="wifi-before-download-left"><img src="./img/wifi-download-logo.png" /></div>
+                <div class="wifi-before-download-middle">下载【全民乐动】APP查看更多精彩！</div>
+                <div class="wifi-before-download-right"><img src="./img/wifi-download-right.png" /></div>
+            </div>
+
+            <div class="wifi-before-footer clearfix">
+                <div class="wifi-before-footer-img"><img src="./img/wifi-bottom-wuhuan.png" /></div>
+                <div class="wifi-before-footer-txt"><span>根据公安部的网络安全条例，使用公共WIFI上网需要实名验证，SZSports为苏州体育公共免费WIFI,请放心使用。</span></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="https://cdn.bootcss.com/iCheck/1.0.2/icheck.min.js"></script>
+    <script>
+        var listData = ['体育新闻', '近期赛事', '附近场所', '运动知识'],
+            colorData = ['#99ccff', '#ccff66', '#ffcc99', '#ff6666'];
+
+        $(function () {
+            var mySwiper = new Swiper('.wiPage-swiper-container', {
+                loop: true,
+            });
+
+            $('#knowButton').iCheck({
+                checkboxClass: 'icheckbox_flat-green',
+                radioClass: 'icheckbox_flat-green'
+            });
+            showListData(listData);
+        });
+
+        function showListData(listdata) {
+            var strList = '';
+            if (listdata && listdata.length > 0) {
+                $.each(listdata, function (idx, item) {
+                    var midx = idx % 4;
+                    strList += "<li class='newlist-li' style='border-bottom:5px solid " + colorData[midx] +
+                        ";'><a>" +
+                        item + "</a></li>";
+                });
+                $(".wiPage-newList-ul").html(strList);
+            } else {
+                $(".wiPage-newList-ul").html('<li>没有信息</li>');
+            }
+        }
+
+        function windowClose() {
+            window.opener = null;
+            window.open('', '_self');
+            window.close();
+        }
+    </script>
+</body>
+
+</html>
