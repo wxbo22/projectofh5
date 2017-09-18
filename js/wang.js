@@ -256,12 +256,11 @@ function getMiddle(objName, bool) {
 // 首页滑动加载动画结束
 
 $(function () {
-	$(".middle-ome img").on("mouseenter", function () {
-		$(this).parent().addClass("animation-pause");
-		console.log(11);
-	});
-	$(".middle-ome img").on("mouseleave", function () {
-		$(this).parent().removeClass("animation-pause");
-		console.log(11);		
+	$(".middle-ome img").on("singleTap", function () {
+		if($(this).parent().hasClass("animation-pause")){
+			$(this).parent().removeClass("animation-pause");			
+		} else {
+			$(this).parent().addClass("animation-pause");						
+		}
 	});
 });
